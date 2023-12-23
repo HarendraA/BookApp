@@ -56,4 +56,11 @@
             </plugin>
         </plugins>
     </build>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>harendra-Latitude-3410-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>         
 </project>
