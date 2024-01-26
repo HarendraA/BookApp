@@ -57,10 +57,10 @@
         </plugins>
     </build>
 <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>harendra-Latitude-3410-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release</url>
-    </repository>
-</distributionManagement>         
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0yaskko1wszu-artifactory-primary-0-snapshots</name>
+        <url>https://harendrareddy.jfrog.io/artifactory/bookapp-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>       
 </project>
