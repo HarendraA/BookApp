@@ -62,5 +62,10 @@
         <name>a0yaskko1wszu-artifactory-primary-0-snapshots</name>
         <url>https://harendrareddy.jfrog.io/artifactory/bookapp-libs-snapshot</url>
     </snapshotRepository>
-</distributionManagement>       
+    <repository>
+        <id>central</id>
+        <name>a0yaskko1wszu-artifactory-primary-0-releases</name>
+        <url>https://harendrareddy.jfrog.io/artifactory/bookapp-libs-release</url>
+    </repository>
+</distributionManagement>
 </project>
